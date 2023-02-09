@@ -170,7 +170,7 @@ void *PVRRecorderThread::Process(void)
   if (!m_dvr->GetTimer(t_currTimer.Timer, nowTimer))
   {
     XBMC->Log(LOG_ERROR, "Failed to get current timer state.");
-    return NULL;       
+    return nullptr;       
   }
 
   if (nowTimer.Status == PVR_STREAM_START_RECORDING)
@@ -229,7 +229,7 @@ void *PVRRecorderThread::Process(void)
   // create kodi file path
   std::string videoFile = g_strRecPath + filename;
 
-  // create newtwork file path accounting for SAMBA
+  // create network file path accounting for SAMBA
   std::string filePath;
 
   if (g_strSmbPath.length() == 0)
@@ -322,7 +322,7 @@ void *PVRRecorderThread::Process(void)
     XBMC->Log(LOG_ERROR, "Path to ffmpeg binary is not set. Please change addon configuration.");
   
     nowTimer.Status = PVR_STREAM_STOPPED;
-    nowTimer.Timer.state= PVR_TIMER_STATE_ERROR;
+    nowTimer.Timer.state = PVR_TIMER_STATE_ERROR;
 
     if (m_dvr->UpdateTimer(nowTimer));
       s_triggerTimerUpdate = true;

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\IPTV\IPTV-Simple-client-with-recording-for-KODI-Leia\build\CMakeFiles\ceba696841f79aa321cb7d8bec696e4f\addon-package.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\IPTV\IPTV-Simple-client-with-recording-for-KODI-Leia\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\IPTV\IPTV-Simple-client-with-recording-for-KODI-Leia\build\CMakeFiles\addon-package" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{70E1A4ED-8599-37AF-BE95-8DB01B2601E0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
